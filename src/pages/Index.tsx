@@ -2,6 +2,7 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
+import CoverBanner from '@/components/CoverBanner';
 import CategorySection from '@/components/CategorySection';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import FeaturesBanner from '@/components/FeaturesBanner';
@@ -17,6 +18,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <CoverBanner />
         <FeaturesBanner />
         <CategorySection />
         <FeaturedProducts />
